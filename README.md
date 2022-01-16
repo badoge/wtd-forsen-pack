@@ -4,10 +4,14 @@ This is a pack of clips taken from [Sebastian "RolePlayer" Fors (Forsen)](https:
 > ⚠ Clips in this pack contain strong language :)
 
 ## How to install
+### Automatic installation
+Get the [auto-installer](https://github.com/g7eternal/wtd-forsen-pack/releases/download/dummy_tag_1/wtd-forsen-pack-auto.exe) - it will take care of finding your game and importing all the new clips! The whole process is just a few clicks!
+
+### Manual installation
 1. Download and unzip the latest version of the pack: 
-    + Forsen pack (~0.85gb): 
-        + [GitHub](https://github.com/g7eternal/wtd-forsen-pack/releases/download/0.4.0/wtd-forsen-pack.zip) | [Mirror](https://g7eternal.ru/misc/wtd-forsen-pack.zip)
-    + Extended pack (with bonus clips from [nymn pack](https://github.com/badoge/wtd-nymn-pack), >1gb): 
+    + Forsen pack (~0.9gb): 
+        + [GitHub](https://github.com/g7eternal/wtd-forsen-pack/releases/download/0.4.1/wtd-forsen-pack.zip) | [Mirror](https://g7eternal.ru/misc/wtd-forsen-pack.zip)
+    + or Extended Forsen pack (with bonus clips from [nymn pack](https://github.com/badoge/wtd-nymn-pack), >1gb): 
         + [GitHub](https://github.com/badoge/wtd-nymn-pack/releases/download/v2forsen/wtd-pack-for-forsen.zip)
 
 2. In your Steam library select the **What the Dub?!** game, right-click -> _Manage_ -> _Browse local files_
@@ -28,18 +32,24 @@ This is a pack of clips taken from [Sebastian "RolePlayer" Fors (Forsen)](https:
 5. All done! Start up the game to confirm: installation has been successful if new game intro is sus.
 
 ## How to remove pack
+The easiest way: delete the game, then reinstall it.
+
+The proper way:
+
 1. In your Steam library select **What the Dub?!** game, right-click -> _Manage_ -> _Browse local files_
 
 2. Navigate to the following folder: _WhatTheDub_Data\StreamingAssets_
 
 3. 
-    a. **If you merged the forsen pack with the original movie clips:**
-
+    a. **If you used an automatic installer:**
     * Delete the following folders: _UiVideo, TheEndClips, Subtitles, VideoClips_
     * Select **What the Dub?!** in your Steam library right-click -> *Properties* -> *Local Files* -> *Verify integrity of game files*
     * Steam will restore the original movie clips automatically
     
-    b. **If you replaced the original movie clips with the forsen pack:**
+    b. **If you merged the forsen pack with the original movie clips:**
+    * do the same as above
+    
+    c. **If you replaced the original movie clips with the forsen pack:**
 
     * Delete the following folders: _UiVideo, TheEndClips, Subtitles, VideoClips_
     * Move the original files from the _backup_ folder back to the _StreamingAssets_ folder
@@ -79,3 +89,6 @@ Any way you'd like to:
 ## More packs
 If you are looking for more custom clips, check out these packs:
 - [What the Dub?! - nymn pack](https://github.com/badoge/wtd-nymn-pack)
+
+For more fun, check out these custom packs for other games:
+- [Jackbox 6: Forsen Pack](https://github.com/g7eternal/jackbox-forsen-pack-6)
